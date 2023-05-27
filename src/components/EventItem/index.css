@@ -1,0 +1,43 @@
+/* Write your CSS here */
+.each-event-item {
+  margin-left: 5px;
+  margin-bottom: 20px;
+  height: 220px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 20px;
+}
+
+.title {
+  color: #ffffff;
+  font-size: 20px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+.location {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.img-button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  padding: 0px;
+}
+
+.event-image {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+
+.active {
+  border-radius: 8px;
+  border: 2px solid #2dd4bf;
+}

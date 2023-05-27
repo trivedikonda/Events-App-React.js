@@ -1,0 +1,40 @@
+/* Write your CSS here */
+
+.app-container {
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: row;
+  width: 65vw;
+}
+
+.first-container {
+  background-color: #3a4b63;
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.main-heading {
+  margin-bottom: 3px;
+  margin-left: 70px;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+.events-list-container {
+  list-style-type: none;
+  width: 35vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.second-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
